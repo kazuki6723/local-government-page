@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0%;
+  width: 100%;
+}
+
+header .navbar-container {
+  margin: 15px auto;
+  width: 1000px;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin: 10px;
+  height: 130px;
+}
+
+header .search-bar {
+  margin: auto 10px 10px 0;
+  width: 400px;
+}
+
+header .search-textbox,
+.search-btn {
+  /* ユーザーエージェントスタイルシートをリセット */
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  appearance: none;
+
+  /* 高さに影響するプロパティが同じ値であることを確認 */
+  font-size: 1em;
+  line-height: 1.2;
+  padding: 0.5em var(--padding-x);
+  border: 1px solid #999;
+  border-radius: 5px;
+
+  box-sizing: border-box;
+}
+
+/* input */
+.search-textbox {
+  --padding-x: 0.5em;
+  width: 80%;
+}
+
+/* button */
+.search-btn {
+  display: inline-flex;
+  justify-content: center; /* コンテンツを水平方向に中央揃え */
+  align-items: center; /* コンテンツを垂直方向に中央揃え */
+  --padding-x: 1.2em;
+  background: skyblue;
+  cursor: pointer;
+}
+
+header .headline {
+  font-size: 32px;
+}
+
+.nav-list {
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item {
+  list-style: none;
+  margin: 0 20px;
+}
