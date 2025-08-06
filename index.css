@@ -62,17 +62,3 @@ header .search-textbox,
   background: skyblue;
   cursor: pointer;
 }
-
-header .headline {
-  font-size: 32px;
-}
-
-.nav-list {
-  padding: 10px 0;
-  margin: 0 auto;
-}
-
-.nav-list-item {
-  list-style: none;
-  margin: 0 20px;
-}
