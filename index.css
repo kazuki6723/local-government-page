@@ -47,32 +47,16 @@ header .search-textbox,
   box-sizing: border-box;
 }
 
-/* input */
 .search-textbox {
   --padding-x: 0.5em;
   width: 80%;
 }
 
-/* button */
 .search-btn {
   display: inline-flex;
-  justify-content: center; /* コンテンツを水平方向に中央揃え */
-  align-items: center; /* コンテンツを垂直方向に中央揃え */
+  justify-content: center;
+  align-items: center;
   --padding-x: 1.2em;
   background: skyblue;
   cursor: pointer;
-}
-
-header .headline {
-  font-size: 32px;
-}
-
-.nav-list {
-  padding: 10px 0;
-  margin: 0 auto;
-}
-
-.nav-list-item {
-  list-style: none;
-  margin: 0 20px;
 }
