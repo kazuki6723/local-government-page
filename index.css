@@ -90,3 +90,10 @@ header .search-textbox,
   z-index: 10;
 }
 
+.prev-arrow {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
