@@ -111,3 +111,10 @@ header .search-textbox,
   margin: auto;
 }
 
+.next-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
