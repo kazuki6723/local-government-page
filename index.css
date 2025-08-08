@@ -9,7 +9,7 @@ header {
 }
 
 header .navbar-container {
-  margin: 15px auto;
+  margin: 0 auto;
   width: 1000px;
   height: 150px;
   overflow: hidden;
