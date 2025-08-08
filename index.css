@@ -118,3 +118,16 @@ header .search-textbox,
   transform: translateY(-50%);
 }
 
+.next-arrow-triangle {
+  background: white;
+  width: calc(18px / 2 * tan(60deg));
+  height: 18px;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  transform: translateX(15%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
