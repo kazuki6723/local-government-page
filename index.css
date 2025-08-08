@@ -60,3 +60,14 @@ header .search-textbox,
   background: skyblue;
   cursor: pointer;
 }
+
+.slide {
+  max-height: 578px;
+  height: 100%;
+  width: 100%;
+}
+
+.slide-items img {
+  margin: 0 auto;
+}
+
