@@ -75,3 +75,18 @@ header .search-textbox,
   margin: 0 auto;
 }
 
+.slide-arrow {
+  display: inline-block;
+  vertical-align: middle;
+  color: #333;
+  line-height: 1;
+  font-size: 50px;
+  width: 0.8em;
+  height: 0.8em;
+  border: 0.075em solid currentColor;
+  background: currentColor;
+  border-radius: 50%;
+  box-sizing: content-box;
+  z-index: 10;
+}
+
