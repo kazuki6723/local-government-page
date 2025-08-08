@@ -67,6 +67,10 @@ header .search-textbox,
   width: 100%;
 }
 
+.slide-items {
+  position: relative;
+}
+
 .slide-items img {
   margin: 0 auto;
 }
