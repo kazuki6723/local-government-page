@@ -60,3 +60,74 @@ header .search-textbox,
   background: skyblue;
   cursor: pointer;
 }
+
+.slide {
+  max-height: 578px;
+  height: 100%;
+  width: 100%;
+}
+
+.slide-items {
+  position: relative;
+}
+
+.slide-items img {
+  margin: 0 auto;
+}
+
+.slide-arrow {
+  display: inline-block;
+  vertical-align: middle;
+  color: #333;
+  line-height: 1;
+  font-size: 50px;
+  width: 0.8em;
+  height: 0.8em;
+  border: 0.075em solid currentColor;
+  background: currentColor;
+  border-radius: 50%;
+  box-sizing: content-box;
+  z-index: 10;
+}
+
+.prev-arrow {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.prev-arrow-triangle {
+  background: white;
+  width: calc(18px / 2 * tan(60deg));
+  height: 18px;
+  clip-path: polygon(100% 0, 0 50%, 100% 100%);
+  transform: translateX(-15%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.next-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.next-arrow-triangle {
+  background: white;
+  width: calc(18px / 2 * tan(60deg));
+  height: 18px;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  transform: translateX(15%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}

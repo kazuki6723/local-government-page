@@ -2,8 +2,19 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
     <link rel="stylesheet" href="index.css" />
     <title>初めてのWebページ</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
 
   <body>
@@ -20,5 +31,29 @@
         </div>
       </div>
     </header>
+    <div>
+      <div class="slide">
+        <ul class="slide-items">
+          <li><img src="heatstroke.png" alt="熱中症予防" /></li>
+          <li><img src="1.png" alt="" /></li>
+          <li><img src="2.png" alt="" /></li>
+        </ul>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+      $(".slide-items").slick({
+        fade: true,
+        arrows: true,
+        prevArrow:
+          '<div class="slide-arrow prev-arrow"><div class="prev-arrow-triangle"></div></div>',
+        nextArrow:
+          '<div class="slide-arrow next-arrow"><div class="next-arrow-triangle"></div>',
+      });
+    </script>
   </body>
 </html>
