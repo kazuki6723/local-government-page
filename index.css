@@ -9,7 +9,7 @@ header {
 }
 
 header .navbar-container {
-  margin: 15px auto;
+  margin: 0 auto;
   width: 1000px;
   height: 150px;
   overflow: hidden;
@@ -23,7 +23,7 @@ header .logo {
 }
 
 header .search-bar {
-  margin: auto 10px 10px 0;
+  margin: auto 10px 20px 0;
   width: 400px;
 }
 
