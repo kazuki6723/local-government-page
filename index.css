@@ -131,3 +131,7 @@ header .search-textbox,
   bottom: 0;
   margin: auto;
 }
+
+.material-symbols-outlined {
+  color: skyblue;
+}
