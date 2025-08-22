@@ -84,6 +84,21 @@
         &#menu-container-5 {
           left: -800px;
         }
+
+        & .global-nav.menu.item {
+          width: calc(100% / 4);
+          padding: 10px 0;
+          color: white;
+          text-decoration: none;
+          overflow-wrap: anywhere;
+          word-break: normal;
+          line-break: strict;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          transition: color 0.3s, background-color 0.3s;
+        }
       }
     }
 
