@@ -41,6 +41,7 @@
 
               & .global-nav.show-icon {
                 display: block;
+                transition: opacity 0.3s;
               }
 
               & .global-nav.overlay-icon {
@@ -49,6 +50,25 @@
                 top: 0px;
                 left: 0px;
                 opacity: 0;
+                transition: opacity 0.3s;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    & .global-nav.item-container:hover {
+      & .global-nav.item-link {
+        & .global-nav.content-container {
+          & .global-nav.content-title {
+            & .global-nav.title-icon {
+              & .global-nav.show-icon {
+                opacity: 0;
+              }
+
+              & .global-nav.overlay-icon {
+                opacity: 1;
               }
             }
           }
