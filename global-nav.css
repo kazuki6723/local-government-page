@@ -99,6 +99,11 @@
           text-align: center;
           transition: color 0.3s, background-color 0.3s;
         }
+
+        & .global-nav.menu.item:hover {
+          background-color: white;
+          color: skyblue;
+        }
       }
     }
 
