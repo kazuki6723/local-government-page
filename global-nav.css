@@ -1,4 +1,13 @@
 .global-nav-container {
   width: 100%;
   height: 146px;
+
+  & .global-nav-box {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
 }
