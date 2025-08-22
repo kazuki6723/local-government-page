@@ -1,4 +1,5 @@
 $global-nav-height: 146px;
+$global-nav-item-width: 200px;
 
 .global-nav-container {
   width: 100%;
@@ -13,7 +14,7 @@ $global-nav-height: 146px;
     list-style: none;
 
     & .global-nav.item-container {
-      width: 200px;
+      width: $global-nav-item-width;
       height: 100%;
       position: relative;
 
