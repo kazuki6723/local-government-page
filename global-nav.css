@@ -32,6 +32,10 @@
           & .global-nav.content-icon {
             font-size: 100px;
           }
+
+          & .global-nav.content-title {
+            display: flex;
+          }
         }
       }
     }
