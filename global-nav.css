@@ -42,6 +42,14 @@
               & .global-nav.show-icon {
                 display: block;
               }
+
+              & .global-nav.overlay-icon {
+                display: block;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                opacity: 0;
+              }
             }
           }
         }
