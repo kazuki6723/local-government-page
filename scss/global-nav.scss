@@ -1,6 +1,8 @@
 $global-nav-height: 146px;
 $global-nav-item-width: 200px;
 
+$transition-duration: 0.3s;
+
 .global-nav-container {
   width: 100%;
   height: $global-nav-height;
@@ -30,7 +32,7 @@ $global-nav-item-width: 200px;
           justify-content: center;
           align-items: center;
           cursor: pointer;
-          transition: opacity 0.3s;
+          transition: opacity $transition-duration;
 
           & .global-nav.content-icon {
             font-size: 100px;
@@ -44,7 +46,7 @@ $global-nav-item-width: 200px;
 
               & .global-nav.show-icon {
                 display: block;
-                transition: opacity 0.3s;
+                transition: opacity $transition-duration;
               }
 
               & .global-nav.overlay-icon {
@@ -53,7 +55,7 @@ $global-nav-item-width: 200px;
                 top: 0px;
                 left: 0px;
                 opacity: 0;
-                transition: opacity 0.3s;
+                transition: opacity $transition-duration;
               }
             }
           }
@@ -100,7 +102,8 @@ $global-nav-item-width: 200px;
           justify-content: center;
           align-items: center;
           text-align: center;
-          transition: color 0.3s, background-color 0.3s;
+          transition: color $transition-duration,
+            background-color $transition-duration;
         }
 
         & .global-nav.menu.item:hover {
