@@ -62,6 +62,19 @@
       }
     }
 
+    & .global-nav.item-container:not(:first-of-type):before {
+      content: "";
+      display: block;
+      height: 40px;
+      width: 0;
+      border-right: 1px solid silver;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+    }
+
     & .global-nav.item-container:hover {
       & .global-nav.item-link {
         & .global-nav.content-container {
