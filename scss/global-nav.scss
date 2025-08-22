@@ -1,6 +1,13 @@
+$global-nav-height: 146px;
+$global-nav-item-width: 200px;
+
+$transition-duration: 0.3s;
+$content-icon-font-size: 100px;
+$opacity-on-hover: 0.7;
+
 .global-nav-container {
   width: 100%;
-  height: 146px;
+  height: $global-nav-height;
 
   & .global-nav-box {
     width: 1000px;
@@ -11,7 +18,7 @@
     list-style: none;
 
     & .global-nav.item-container {
-      width: 200px;
+      width: $global-nav-item-width;
       height: 100%;
       position: relative;
 
@@ -27,10 +34,10 @@
           justify-content: center;
           align-items: center;
           cursor: pointer;
-          transition: opacity 0.3s;
+          transition: opacity $transition-duration;
 
           & .global-nav.content-icon {
-            font-size: 100px;
+            font-size: $content-icon-font-size;
           }
 
           & .global-nav.content-title {
@@ -41,7 +48,7 @@
 
               & .global-nav.show-icon {
                 display: block;
-                transition: opacity 0.3s;
+                transition: opacity $transition-duration;
               }
 
               & .global-nav.overlay-icon {
@@ -50,14 +57,14 @@
                 top: 0px;
                 left: 0px;
                 opacity: 0;
-                transition: opacity 0.3s;
+                transition: opacity $transition-duration;
               }
             }
           }
         }
 
         & .global-nav.content-container:hover {
-          opacity: 0.7;
+          opacity: $opacity-on-hover;
         }
       }
 
@@ -67,22 +74,22 @@
         padding: 10px;
         background-color: skyblue;
         position: absolute;
-        top: 146px;
+        top: $global-nav-height;
         display: flex;
         flex-wrap: wrap;
         visibility: hidden;
 
         &#menu-container-2 {
-          left: -200px;
+          left: -($global-nav-item-width);
         }
         &#menu-container-3 {
-          left: -400px;
+          left: calc(#{$global-nav-item-width} * -2);
         }
         &#menu-container-4 {
-          left: -600px;
+          left: calc(#{$global-nav-item-width} * -3);
         }
         &#menu-container-5 {
-          left: -800px;
+          left: calc(#{$global-nav-item-width} * -4);
         }
 
         & .global-nav.menu.item {
@@ -97,7 +104,8 @@
           justify-content: center;
           align-items: center;
           text-align: center;
-          transition: color 0.3s, background-color 0.3s;
+          transition: color $transition-duration,
+            background-color $transition-duration;
         }
 
         & .global-nav.menu.item:hover {
