@@ -68,13 +68,13 @@
   left: -200px;
 }
 .global-nav-container .global-nav-box .global-nav.item-container .global-nav.menu-container#menu-container-3 {
-  left: -400px;
+  left: calc(200px * -2);
 }
 .global-nav-container .global-nav-box .global-nav.item-container .global-nav.menu-container#menu-container-4 {
-  left: -600px;
+  left: calc(200px * -3);
 }
 .global-nav-container .global-nav-box .global-nav.item-container .global-nav.menu-container#menu-container-5 {
-  left: -800px;
+  left: calc(200px * -4);
 }
 .global-nav-container .global-nav-box .global-nav.item-container .global-nav.menu-container .global-nav.menu.item {
   width: 25%;

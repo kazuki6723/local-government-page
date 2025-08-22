@@ -76,16 +76,16 @@ $global-nav-item-width: 200px;
         visibility: hidden;
 
         &#menu-container-2 {
-          left: -200px;
+          left: -($global-nav-item-width);
         }
         &#menu-container-3 {
-          left: -400px;
+          left: calc(#{$global-nav-item-width} * -2);
         }
         &#menu-container-4 {
-          left: -600px;
+          left: calc(#{$global-nav-item-width} * -3);
         }
         &#menu-container-5 {
-          left: -800px;
+          left: calc(#{$global-nav-item-width} * -4);
         }
 
         & .global-nav.menu.item {
