@@ -1,6 +1,8 @@
 $global-nav-height: 146px;
 $global-nav-item-width: 200px;
 
+$content-icon-font-size: 100px;
+
 $transition-duration: 0.3s;
 
 .global-nav-container {
@@ -35,7 +37,7 @@ $transition-duration: 0.3s;
           transition: opacity $transition-duration;
 
           & .global-nav.content-icon {
-            font-size: 100px;
+            font-size: $content-icon-font-size;
           }
 
           & .global-nav.content-title {
