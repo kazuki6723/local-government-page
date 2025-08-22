@@ -9,5 +9,11 @@
     display: flex;
     justify-content: center;
     list-style: none;
+
+    & .global-nav.item-container {
+      width: 200px;
+      height: 100%;
+      position: relative;
+    }
   }
 }
