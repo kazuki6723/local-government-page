@@ -35,6 +35,14 @@
 
           & .global-nav.content-title {
             display: flex;
+
+            & .global-nav.title-icon {
+              position: relative;
+
+              & .global-nav.show-icon {
+                display: block;
+              }
+            }
           }
         }
       }
