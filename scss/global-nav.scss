@@ -1,6 +1,8 @@
+$global-nav-height: 146px;
+
 .global-nav-container {
   width: 100%;
-  height: 146px;
+  height: $global-nav-height;
 
   & .global-nav-box {
     width: 1000px;
@@ -67,7 +69,7 @@
         padding: 10px;
         background-color: skyblue;
         position: absolute;
-        top: 146px;
+        top: $global-nav-height;
         display: flex;
         flex-wrap: wrap;
         visibility: hidden;
