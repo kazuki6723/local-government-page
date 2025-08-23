@@ -1,18 +1,18 @@
-$news-bar-height: 46px;
-$news-bar-box-width: 1000px;
+$emergency-info-bar-height: 46px;
+$emergency-info-bar-box-width: 1000px;
 $title-container-width: 150px;
-$content-container-width: $news-bar-box-width - $title-container-width;
+$content-container-width: $emergency-info-bar-box-width - $title-container-width;
 
 .news-bar-container {
   width: 100%;
-  height: $news-bar-height;
+  height: $emergency-info-bar-height;
   padding: 20px 0;
   background-color: #eee;
   display: flex;
   justify-content: center;
 
   & .news-bar-box {
-    width: $news-bar-box-width;
+    width: $emergency-info-bar-box-width;
     height: 100%;
     display: flex;
 
