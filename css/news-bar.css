@@ -24,4 +24,13 @@
 }
 .news-bar-container .news-bar-box .news-bar.title-container .news-bar.title-text {
   color: white;
+}
+.news-bar-container .news-bar-box .news-bar.content-container {
+  box-sizing: border-box;
+  width: 850px;
+  height: 100%;
+  padding: 11px;
+  background-color: white;
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=news-bar.css.map */

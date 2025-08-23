@@ -1,6 +1,7 @@
 $news-bar-height: 46px;
 $news-bar-box-width: 1000px;
 $title-container-width: 150px;
+$content-container-width: $news-bar-box-width - $title-container-width;
 
 .news-bar-container {
   width: 100%;
@@ -30,6 +31,16 @@ $title-container-width: 150px;
       & .news-bar.title-text {
         color: white;
       }
+    }
+
+    & .news-bar.content-container {
+      box-sizing: border-box;
+      width: $content-container-width;
+      height: 100%;
+      padding: 11px;
+      background-color: white;
+      display: flex;
+      align-items: center;
     }
   }
 }
