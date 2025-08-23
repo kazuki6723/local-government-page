@@ -1,0 +1,10 @@
+$news-bar-height: 46px;
+
+.news-bar-container {
+  width: 100%;
+  height: $news-bar-height;
+  padding: 20px 0;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+}

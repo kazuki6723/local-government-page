@@ -1,1 +1,8 @@
-/*# sourceMappingURL=news-bar.css.map */
+.news-bar-container {
+  width: 100%;
+  height: 46px;
+  padding: 20px 0;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=news-bar.css.map */
