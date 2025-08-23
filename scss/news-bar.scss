@@ -41,6 +41,14 @@ $content-container-width: $news-bar-box-width - $title-container-width;
       background-color: white;
       display: flex;
       align-items: center;
+
+      & .news-bar.content-text {
+        font-size: 16px;
+        line-height: 1.5;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
     }
   }
 }
