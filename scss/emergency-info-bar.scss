@@ -1,22 +1,22 @@
-$news-bar-height: 46px;
-$news-bar-box-width: 1000px;
+$emergency-info-bar-height: 46px;
+$emergency-info-bar-box-width: 1000px;
 $title-container-width: 150px;
-$content-container-width: $news-bar-box-width - $title-container-width;
+$content-container-width: $emergency-info-bar-box-width - $title-container-width;
 
-.news-bar-container {
+.emergency-info-bar-container {
   width: 100%;
-  height: $news-bar-height;
+  height: $emergency-info-bar-height;
   padding: 20px 0;
   background-color: #eee;
   display: flex;
   justify-content: center;
 
-  & .news-bar-box {
-    width: $news-bar-box-width;
+  & .emergency-info-bar-box {
+    width: $emergency-info-bar-box-width;
     height: 100%;
     display: flex;
 
-    & .news-bar.title-container {
+    & .emergency-info-bar.title-container {
       width: $title-container-width;
       height: 100%;
       display: flex;
@@ -24,16 +24,16 @@ $content-container-width: $news-bar-box-width - $title-container-width;
       align-items: center;
       background-color: skyblue;
 
-      & .news-bar.title-icon {
+      & .emergency-info-bar.title-icon {
         color: white;
       }
 
-      & .news-bar.title-text {
+      & .emergency-info-bar.title-text {
         color: white;
       }
     }
 
-    & .news-bar.content-container {
+    & .emergency-info-bar.content-container {
       box-sizing: border-box;
       width: $content-container-width;
       height: 100%;
@@ -42,7 +42,7 @@ $content-container-width: $news-bar-box-width - $title-container-width;
       display: flex;
       align-items: center;
 
-      & .news-bar.content-text {
+      & .emergency-info-bar.content-text {
         font-size: 16px;
         line-height: 1.5;
         white-space: nowrap;

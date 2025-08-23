@@ -1,0 +1,43 @@
+.emergency-info-bar-container {
+  width: 100%;
+  height: 46px;
+  padding: 20px 0;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+}
+.emergency-info-bar-container .emergency-info-bar-box {
+  width: 1000px;
+  height: 100%;
+  display: flex;
+}
+.emergency-info-bar-container .emergency-info-bar-box .emergency-info-bar.title-container {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+}
+.emergency-info-bar-container .emergency-info-bar-box .emergency-info-bar.title-container .emergency-info-bar.title-icon {
+  color: white;
+}
+.emergency-info-bar-container .emergency-info-bar-box .emergency-info-bar.title-container .emergency-info-bar.title-text {
+  color: white;
+}
+.emergency-info-bar-container .emergency-info-bar-box .emergency-info-bar.content-container {
+  box-sizing: border-box;
+  width: 850px;
+  height: 100%;
+  padding: 11px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.emergency-info-bar-container .emergency-info-bar-box .emergency-info-bar.content-container .emergency-info-bar.content-text {
+  font-size: 16px;
+  line-height: 1.5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}/*# sourceMappingURL=emergency-info-bar.css.map */
