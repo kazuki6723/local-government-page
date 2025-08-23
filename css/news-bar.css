@@ -10,4 +10,12 @@
   width: 1000px;
   height: 100%;
   display: flex;
+}
+.news-bar-container .news-bar-box .news-bar.title-container {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
 }/*# sourceMappingURL=news-bar.css.map */

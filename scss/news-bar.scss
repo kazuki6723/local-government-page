@@ -1,5 +1,6 @@
 $news-bar-height: 46px;
 $news-bar-box-width: 1000px;
+$title-container-width: 150px;
 
 .news-bar-container {
   width: 100%;
@@ -13,5 +14,14 @@ $news-bar-box-width: 1000px;
     width: $news-bar-box-width;
     height: 100%;
     display: flex;
+
+    & .news-bar.title-container {
+      width: $title-container-width;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: skyblue;
+    }
   }
 }
