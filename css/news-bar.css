@@ -5,4 +5,9 @@
   background-color: #eee;
   display: flex;
   justify-content: center;
+}
+.news-bar-container .news-bar-box {
+  width: 1000px;
+  height: 100%;
+  display: flex;
 }/*# sourceMappingURL=news-bar.css.map */

@@ -1,4 +1,5 @@
 $news-bar-height: 46px;
+$news-bar-box-width: 1000px;
 
 .news-bar-container {
   width: 100%;
@@ -7,4 +8,10 @@ $news-bar-height: 46px;
   background-color: #eee;
   display: flex;
   justify-content: center;
+
+  & .news-bar-box {
+    width: $news-bar-box-width;
+    height: 100%;
+    display: flex;
+  }
 }
